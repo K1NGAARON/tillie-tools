@@ -1,0 +1,46 @@
+.banner {
+    justify-content: center;
+    height: 90vh;
+    background-image: url('/home/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
+
+.banner h1 {
+    font-size: 46px;
+}
+
+.banner h1,
+.banner p {
+    width: 100%;
+}
+
+.banner .overlay {
+    opacity: 0.8;
+}
+
+@media (max-width: 560px) {
+    .banner h1,
+    .banner p {
+        width: 100%;
+    }
+
+    .banner.section {
+        height: 140vh;
+    }
+
+    .banner.section h1 {
+        margin-top: 30px;
+    }
+
+    .banner .row .col h1 {
+        font-size: 24px;
+    }
+}
