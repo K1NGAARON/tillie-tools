@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --primary: #CBA16A;
+    --primary: #97BB7D;
     --white: #fff;
     --light-grey: #f5f5f5;
     --black: #191918;
@@ -32,15 +32,15 @@ h3 {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 34px;
 }
 
 h2 {
-    font-size: 42px;
+    font-size: 26px;
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 h4 {
@@ -59,10 +59,7 @@ p {
 img {
     width: 100%;
     height: auto;
-}
-
-img.bg-color {
-    box-shadow: 8px 8px 0px 2px var(--primary);
+    border-radius: var(--borderRadius);
 }
 
 p.width-50 {
@@ -143,8 +140,8 @@ p.width-50 {
     color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
-    border-radius: 5px;
-    padding: 10px 15px;
+    border-radius: 3px;
+    padding: 10px 30px;
     transition: var(--transition); 
 }
 

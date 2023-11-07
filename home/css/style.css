@@ -1,130 +1,38 @@
-.banner {
-    justify-content: center;
-    height: 90vh;
-    background-image: url('/home/img/banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
+.banner.section .row h1 {
+    font-size: 26px;
 }
 
-.banner .row {
-    color: var(--white);
-    z-index: 10;
-}
-
-.banner h1,
-.banner p {
-    text-align: center;
-}
-
-.banner .overlay,
-.services .overlay {
-    opacity: 0.8;
-}
-
-.banner .btn-wrapper {
+.banner .banner-wrapper {
+    display: flex;
     gap: 40px;
+    flex-flow: row wrap;
 }
 
-.reviews,
-.reviews .row {
-    height: 50vh;
+.banner .banner-wrapper .item,
+.banner .banner-wrapper .item img {
+    border-radius: var(--borderRadius);
 }
 
-.reviews .stars i {
-    color: var(--primary);
-    font-size: 20px;
+.banner .banner-wrapper .item.grey {
+    background-color: var(--light-grey);
 }
 
-.reviews.section .row .review-wrapper {
-    flex-direction: column;
+.banner .banner-wrapper .item:nth-of-type(1) {
+    flex: 2 0;
 }
 
-.reviews.section .row .review-wrapper .review-author {
-    color: var(--primary);
+.banner .banner-wrapper .item:nth-of-type(2) {
+    flex: 1 0;
+    padding: 30px;
 }
 
-.dots {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.dots .dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: var(--primary);
-    opacity: 0.4;
-    transition: var(--transition);
-}
-
-.dots .dot:hover {
-    cursor: pointer;
-}
-
-.dots .dot.active {
-    opacity: 1;
-    transition: var(--transition);
-}
-
-.services.section {
-    justify-content: center;
-    position: relative;
-}
-
-.services .row {
-    z-index: 20;
-}
-
-.services-wrapper .item {
-    flex: 1 0 30%;
-    background-color: var(--white);
-    padding: 20px;
-    border-radius: 12px;
-}
-
-.services-wrapper .item img {
-    width: 50px;
-}
-
-.services-wrapper .item .item-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.services-wrapper .item a {
-    margin-top: 20px;
-}
-
-.contact.section {
-    justify-content: center;
-    height: 50vh;
-    background-image: url('/home/img/image2.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-}
-
-.contact.section .row {
-    color: var(--white);
-    z-index: 10;
-}
-
-.contact.section .overlay {
-    opacity: 0.6;
-    background: var(--black);
+.splide__list {
+    gap: 40px;
 }
 
 .splide__slide img {
     width: 100%;
     height: auto;
-}
-
-.splide__list {
-    gap: 40px;
 }
 
 .splide__list .splide__slide .splide__slide__content {
@@ -158,36 +66,6 @@
 }
 
 @media (max-width: 560px) {
-    .banner {
-        height: 80vh;
-    }
-
-    .reviews.section {
-        height: 50vh;
-        min-height: fit-content;
-    }
-
-    .banner h1,
-    .banner p {
-        width: 100%;
-    }
-
-    .banner.section .row h1 {
-        font-size: 30px;
-    }
-
-    .section.about .row {
-        flex-flow: row wrap-reverse;
-    }
-
-    .services-wrapper .item {
-        flex: 1 0 100%;
-    }
-
-    .services-wrapper h3 {
-        font-size: 24px;
-    }
-
     .wrapper.splide {
         display: none;
     }
