@@ -99,17 +99,11 @@
 
 @media (max-width: 560px) {
     .wrapper.splide {
-        display: none;
+        /* display: none; */
     }
 
-    .wrapper.mobile {
-        display: flex;
-        flex-flow: row wrap;
-        gap: 20px;
-    }
-
-    .wrapper.mobile img {
-        flex: 1 0 40%;
+    .reviews h2 {
+        text-align: center;
     }
 
     .banner .banner-wrapper {
