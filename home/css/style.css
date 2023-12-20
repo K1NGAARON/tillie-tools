@@ -102,6 +102,10 @@
         /* display: none; */
     }
 
+    .banner.section .row h1 {
+        font-size: 22px;
+    }
+
     .reviews h2 {
         text-align: center;
     }
@@ -117,5 +121,9 @@
 
     .usp-wrapper .item {
         flex: 1 0 100%;
+    }
+
+    .usp-wrapper .item .content:nth-of-type(1) img {
+        max-width: 60px;
     }
 }
