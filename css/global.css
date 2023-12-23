@@ -28,6 +28,7 @@ html {
 h1,
 h2,
 h3 {
+    color: var(--primary);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -144,6 +145,10 @@ p.width-50 {
     border-radius: 3px;
     padding: 10px 30px;
     transition: var(--transition); 
+}
+
+.btn.large {
+    font-size: 20px;
 }
 
 .btn:hover {
