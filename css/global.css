@@ -93,8 +93,11 @@ p.width-50 {
     color: var(--white);
 }
 
-
 .section.grey {
+    background-color: var(--light-grey);
+}
+
+.banner .wrapper .item.grey {
     background-color: var(--light-grey);
 }
 

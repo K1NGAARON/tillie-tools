@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    height: 30vh;
+    border-radius: var(--borderRadius);
+}
+
+.wrapper .item {
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borderRadius);
+}
+
+.banner.section .row .wrapper .item h1 {
+    font-size: 28px;
+}
+
+@media (max-width: 560px) {
+    .banner.section .row .wrapper .item h1 {
+        font-size: 22px;
+    }
+}
