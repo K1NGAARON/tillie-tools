@@ -14,6 +14,20 @@
     font-size: 28px;
 }
 
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: var(--borderRadius);
+    color: var(--white);
+    background-color: var(--primary);
+}
+
 @media (max-width: 560px) {
     .banner.section .row .wrapper .item h1 {
         font-size: 22px;
