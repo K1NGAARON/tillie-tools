@@ -1,0 +1,16 @@
+.banner.section .row .video-wrapper-container .item.small {
+    flex: 1 0;
+}
+
+.banner.section .row .video-wrapper-container .item.grey {
+    flex: 2 0;
+}
+
+.banner.section .row .video-wrapper-container .video-wrapper {
+    border-radius: 30px;
+}
+
+.banner.section .row .video-wrapper-container .video-wrapper video {
+    border-radius: 30px;
+    border: 5px solid var(--primary);
+}
