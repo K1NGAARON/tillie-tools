@@ -147,6 +147,7 @@ p.width-50 {
     border: 1px solid var(--primary);
     border-radius: 3px;
     padding: 10px 30px;
+    margin-top: 20px;
     transition: var(--transition); 
 }
 
