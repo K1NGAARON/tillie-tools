@@ -9,6 +9,10 @@
     margin-bottom: 40px;
 }
 
+.grid-3cols * {
+    text-transform: capitalize;
+}
+
 /* Tablet: 2 kolommen */
 @media (max-width: 1024px) {
     .grid-3cols {
